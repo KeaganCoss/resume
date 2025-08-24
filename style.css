@@ -1,0 +1,117 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+.light-bg {
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Jobs */
+.job {
+    margin-bottom: 30px;
+}
+
+.job h3 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.company {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+/* Skills */
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 0;
+}
+
+.skills-list li {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-weight: bold;
+    margin: auto;
+    padding: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.top{
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.nav, a{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
